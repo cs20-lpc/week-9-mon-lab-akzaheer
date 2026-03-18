@@ -18,11 +18,10 @@ int main() {
 
     q.clear();
     cout << q.isEmpty() << endl;                // test clear
-
     try{
         q.dequeue();
     } catch(string e) {
-        cout << e;              // error testing
+        cout << e << endl;              // error testing
     }
     return 0;
 }
